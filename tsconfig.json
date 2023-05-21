@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "../dist",
+    "rootDir": "./src",
+    "target": "ES2021",
+    "lib": ["ES2021", "ES2022.Object", "DOM"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "declaration": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "useDefineForClassFields": true,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "strict": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src/**/*"],
+  "sort": [
+    "kind",
+    "visibility",
+    "instance-first",
+    "required-first",
+    "alphabetical"
+  ]
+}
