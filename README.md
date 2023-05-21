@@ -18,7 +18,7 @@ This project aims to analyze a person's music taste by leveraging the [Spotify A
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/your-project.git`
+1. Clone the repository
 2. Install dependencies: `yarn install`
 3. Set up your Spotify API credentials.
 4. Configure LangChain and OpenAI with the necessary API keys.
